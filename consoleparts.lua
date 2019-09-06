@@ -1,0 +1,63 @@
+platformParts:registerNew({
+	id = "_cpu_1",
+	partType = platformParts.TYPES.CPU,
+	display = _T("PLATFORM_CPU_1_ALT", "CPU - tier 1 Alterninative"),
+	quad = "Cpu_1",
+	price = 80,
+	attractiveness = 80,
+	gameScale = 4,
+	devDifficulty = 0.4,
+	devTime = 40,
+	devCostMult = 1,
+	progression = {
+		{year = 1987, month = 1, scale = 0.5},
+		{year = 1988, month = 1, scale = 0.6},
+		{year = 1989, month = 1, scale = 0.7},
+		{year = 1990, month = 1, scale = 0.8},
+		{year = 1991, month = 1, scale = 0.9},
+		{year = 1992, month = 1, scale = 1},
+		{year = 1995, month = 1, scale = 1.1},
+		{year = 1996, month = 1, scale = 1.2},
+		{year = 1999, month = 1, scale = 1.3},
+		{year = 2002, month = 1, scale = 1.4},
+		{year = 2005, month = 1, scale = 1.5},
+		{year = 2007, month = 1, scale = 1.5},
+		{year = 2009, month = 1, scale = 1.7},
+		{year = 2010, month = 1, scale = 1.8},
+		{year = 2011, month = 1, scale = 1.9},
+		{year = 2012, month = 1, scale = 2},
+	}
+})
+
+platformParts:registerNew({
+	id = "_cpu_2",
+	partType = platformParts.TYPES.CPU,
+	display = _T("PLATFORM_CPU_2_ALT", "CPU - tier 2 Alterninative"),
+	quad = "Cpu_2",
+	price = 280,
+	attractiveness = 240,
+	gameScale = 8,
+	devDifficulty = 0.8,
+	devTime = 150,
+	devCostMult = 1,
+	progression = {
+		{year = 1987, month = 1, scale = 0.5},
+		{year = 1988, month = 1, scale = 0.6},
+		{year = 1989, month = 1, scale = 0.7},
+		{year = 1990, month = 1, scale = 0.8},
+		{year = 1991, month = 1, scale = 0.9},
+		{year = 1992, month = 1, scale = 1},
+		{year = 1995, month = 1, scale = 1.1},
+		{year = 1996, month = 1, scale = 1.2},
+		{year = 1999, month = 1, scale = 1.3},
+		{year = 2002, month = 1, scale = 1.4},
+		{year = 2005, month = 1, scale = 1.5},
+		{year = 2007, month = 1, scale = 1.5},
+		{year = 2009, month = 1, scale = 1.7},
+		{year = 2010, month = 1, scale = 1.8},
+		{year = 2011, month = 1, scale = 1.9},
+		{year = 2012, month = 1, scale = 2},
+	}
+})
+
+--platformParts:registerPartType("_cpu_1")
