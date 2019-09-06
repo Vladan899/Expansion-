@@ -1,0 +1,1 @@
+advert_mass_advert2 = 0 0 200 200
